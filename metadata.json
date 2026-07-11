@@ -1,0 +1,6 @@
+{
+  "name": "Suivi Hydratation",
+  "description": "Une application de suivi d'hydratation moderne et élégante en thème sombre turquoise avec cercle de progression interactif pour atteindre votre objectif quotidien de 2L d'eau.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
