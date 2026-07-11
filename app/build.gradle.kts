@@ -15,7 +15,7 @@ android {
   compileSdk = 35
 
   defaultConfig {
-    applicationId = "com.aistudio.hydratracker.qyfwkz"
+    applicationId = "com.example"
     minSdk = 24
     targetSdk = 35
     versionCode = 1
