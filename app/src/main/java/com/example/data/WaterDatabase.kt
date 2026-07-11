@@ -20,7 +20,6 @@ abstract class WaterDatabase : RoomDatabase() {
                     WaterDatabase::class.java,
                     "water_database"
                 )
-                .fallbackToDestructiveMigration(dropAllTables = true)
                 .build()
                 INSTANCE = instance
                 instance
