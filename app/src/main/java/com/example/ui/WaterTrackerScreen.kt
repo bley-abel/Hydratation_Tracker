@@ -455,9 +455,11 @@ fun ProgressSection(
         ) {
             // Background Track Circle (gray-800)
             Canvas(modifier = Modifier.fillMaxSize()) {
+                val strokeWidth = 16.dp.toPx()
+                val radius = (size.minDimension - strokeWidth) / 2
                 drawCircle(
                     color = Color(0xFF1F2937),
-                    radius = size.minDimension / 2,
+                    radius = radius,
                     style = Stroke(width = 16.dp.toPx(), cap = StrokeCap.Round)
                 )
             }
